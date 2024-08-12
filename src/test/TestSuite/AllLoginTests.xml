@@ -4,7 +4,7 @@
     <test name="Positive Test">
         <groups>
             <run>
-                <include name="positiveTest"></include>
+                <include name="positiveTest"/>
             </run>
         </groups>
         <parameter name="browser" value="chrome"/>
@@ -19,10 +19,11 @@
         <parameter name="password" value="SuperSecretPassword!"/>
         <parameter name="expectedMessage" value="Your username is invalid!"/>
         <classes>
-            <class name="com.herocuapp.theinternet.LoginTests"/>
+            <class name="com.herocuapp.theinternet.LoginTests">
                 <methods>
-                    <include name="negativeLogin"></include>
+                    <include name="negativeLogin"/>
                 </methods>
+            </class>
         </classes>
     </test>
 
@@ -32,10 +33,11 @@
         <parameter name="password" value="IncorrectPassword"/>
         <parameter name="expectedMessage" value="Your password is invalid!"/>
         <classes>
-            <class name="com.herocuapp.theinternet.LoginTests"/>
+            <class name="com.herocuapp.theinternet.LoginTests">
             <methods>
-                <include name="negativeLogin"></include>
+                <include name="negativeLogin"/>
             </methods>
+            </class>
         </classes>
         
     </test>
