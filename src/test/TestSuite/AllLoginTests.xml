@@ -21,7 +21,7 @@
         <classes>
             <class name="com.herocuapp.theinternet.LoginTests">
                 <methods>
-                    <include name="negativeLogin"></include>
+                    <include name="negativeLogin"/>
                 </methods>
             </class>
         </classes>
@@ -35,7 +35,7 @@
         <classes>
             <class name="com.herocuapp.theinternet.LoginTests">
             <methods>
-                <include name="negativeLogin"></include>
+                <include name="negativeLogin"/>
             </methods>
             </class>
         </classes>
